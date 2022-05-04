@@ -13,7 +13,7 @@ export default function App() {
       <Counter initialCount = {0}/>
       CounterHooks
       <CounterHooks initialCount = {0}/>
-      <button onClick={() => setTheme(prevTheme => {return prevTheme==='red'?'blue':'red'})}>Toggle Theme</button>
+      <button onClick={() => setTheme(prevTheme => {return prevTheme==='red'?'green':'red'})}>Toggle Theme</button>
       </ThemeContext.Provider>
   )
 }
